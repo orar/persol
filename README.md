@@ -1,4 +1,4 @@
-# Sample SPA app seed
+# Sample Play React SPA seed
 
 A simple SPA using play framework application with React js as frontend app.
 
