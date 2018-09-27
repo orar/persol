@@ -1,0 +1,29 @@
+
+
+.productFormContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+  .formTitle {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 3rem;
+
+  }
+
+  .title {
+    font-size: 1.7rem;
+    //width: 20rem;
+    text-align: center;
+    //border-bottom: 2px solid #aaaaaa;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+}

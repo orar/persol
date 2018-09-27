@@ -1,0 +1,15 @@
+#header {
+  border: 0 none;
+  height: 5rem;
+
+  .navbar-brand {
+    width: 54px;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 10px;
+      left: 13px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+
+
+.productContainer {
+  display: flex;
+  flex-flow: column;
+  width: 50rem;
+  border-bottom: 1px solid #eee;
+
+
+  .nameWrap {
+    width: 100%;
+    margin: 1rem  auto 1rem .5rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .stockInfoWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: .5rem;
+    margin-bottom: .4rem;
+  }
+  .price {
+    display: flex;
+    flex: 0 0 10rem;
+    justify-content: left;
+    font-size: 1.1rem;
+  }
+  .productCode {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: left;
+
+  }
+  .description {
+    padding-left: .5rem;
+    font-size: 1.1rem;
+  }
+
+  .footBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+
+    .dateCreated {
+
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}
