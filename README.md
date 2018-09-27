@@ -14,15 +14,17 @@ Features
 - Babel
 - Neutrino
 
+React app exist in the ui folder
 
-
-Not bundled together so consider running Play app and React app in different terminals
+Not bundled together by single command so consider running differently Play app and React app in different terminals
 
 #Play
+
 `sbt run` which runs app on port 9000
 
 Check conf/application.conf to manage H2 connection
 
 #React
-`npm start` or `yarn start`  which runs app on port 5000
+
+`cd ui && npm start` or `yarn start`  which runs app on port 5000
 
